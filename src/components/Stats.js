@@ -13,12 +13,12 @@ const Stats = ({ items }) => {
     <footer className="stats">
       {percentagePacked !== 100 ? (
         <em>
-          ✅ You have {numItems} items on your list and you already packed{" "}
+          You have {numItems} items on your list and you already packed{" "}
           {packedItems} ({percentagePacked ? percentagePacked : 0}%)
         </em>
       ) : (
         <em>
-          <strong>You are ready for your journey!✈️</strong>
+          <strong>✅ You are ready for your journey!✈️</strong>
         </em>
       )}
     </footer>
